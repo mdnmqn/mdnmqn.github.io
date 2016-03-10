@@ -36,7 +36,7 @@
 
 		.tagline h1 {
 			text-transform: uppercase;
-			font-size: 2.5vw;
+			font-size: 22px;
 			letter-spacing: 2px;
 			position: absolute;
 			bottom: 10%;
@@ -60,11 +60,15 @@
 			margin-bottom: 5%;
 		}
 
-		@media(max-width: 500px) {
-			.tagline h1 {
-				font-size: 18px;
-			}
-		}
+		@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) { 
+				.tagline {
+					height: 50%;
+				}
+
+				.media {
+					height: 50%;
+				}
+		 }
   </style>
 </head>
 <body>
