@@ -28,38 +28,62 @@
 			font-family: "Didot", serif;
 		}
 
+		.tagline {
+			position: relative;
+			height: 50vh;
+		}
+
 
 		.tagline h1 {
 			text-transform: uppercase;
 			font-size: 16px;
 			letter-spacing: 2px;
-			margin-top: 45vh;
-			margin-bottom: 20vh;
+			position: absolute;
+			bottom: 10%;
+			width: 100%;
+			margin-bottom: 0;
 		}
 
-		.logo img {
-			margin-bottom: 5vh;
+		.media {
+			height: 50vh;
+			margin-top: 0;
+			position: relative;
+		}
+
+		.media-inner {
+			position: absolute;
+			width: 100%;
+			bottom: 15%;
+		}
+
+		.logo {
+			margin-bottom: 5%;
 		}
   </style>
 </head>
 <body>
 	<div class="container text-center">
 		<div class="tagline">
-			<h1>The next big thing in men's fashion is coming</h1>
+			<h1 class="text-center">The next big thing in men's fashion is coming</h1>
 		</div>
-		<div class="logo">
-			<img width="300" src="logo.JPG">
-		</div>
-		<div class="social">
-			<div class="row text-center">
-				<div class="col-md-5 col-sm-5 col-xs-5 text-right">
-					<a href="instagram.com/mdnmqn"><img width="25" src="instagram.png"></a>
-				</div>
-				<div class="col-md-2 col-sm-2 col-xs-2 text-center">
-					<a href="twitter.com/mdnmqn"><img width="25" src="twitter.png"></a>
-				</div>
-				<div class="col-md-5 col-sm-5 col-xs-5 text-left">
-					<a href="mailto:info@mdnmqn.com"><img width="25" src="email.png"></a>
+			<div class="media">
+				<div class="media-inner">
+					<div class="logo">
+						<img width="300" src="logo.JPG">
+					</div>
+					<div class="social">
+						<div class="row text-center">
+							<div class="col-md-5 col-sm-5 col-xs-5 text-right">
+								<a href="instagram.com/mdnmqn"><img width="25" src="instagram.png"></a>
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-2 text-center">
+								<a href="twitter.com/mdnmqn"><img width="25" src="twitter.png"></a>
+							</div>
+							<div class="col-md-5 col-sm-5 col-xs-5 text-left">
+								<a href="mailto:info@mdnmqn.com"><img width="25" src="email.png"></a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
